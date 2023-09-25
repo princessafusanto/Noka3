@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #1d0041;
+}
+
+#to-homePage, #to-newsPage, #to-heroesPage, #to-registerPage, #to-esportPage, #to-homePage-NoKa3{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#to-newsPage{
+    text-decoration: underline;
+}
+
+#to-homePage, #to-newsPage, #to-heroesPage, #to-registerPage, #to-esportPage{
+    padding-right: 1rem;
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    padding-top: 1.8rem;
+    position: fixed;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.left-navbar{
+    padding-left: 6rem;
+    
+}
+
+.right-navbar{
+    padding-right: 6rem;
+}
+
+.header{
+    background-image: url(./backgroundImage/redWallpaper.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 15rem;
+}
+
+#title-news{
+    text-align: center;
+    color: white;
+}
+
+/* .contentOne{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10rem;
+}
+
+#left-contentOne-title, #left-contenOne-para{
+    padding-left: 30%;
+}
+
+#left-contentOne-title{
+    color: #F55252;
+    padding-bottom: 1rem;
+}
+
+#left-contenOne-para{
+    color: whitesmoke;
+    padding-right: 3rem;
+}
+
+#right-contenOne-img{
+    padding-left: 30%;
+    width: 100%;
+}
+
+.contentTwo{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10rem;
+}
+
+#left-contentTwo-img{
+    padding-left: 3rem;
+    width: 50%;
+}
+
+#right-contentTwo-title, #right-contentTwo-para{
+    padding-right: 7rem;
+    padding-left: 3rem;
+    text-align: right;
+}
+
+#right-contentTwo-title{
+    color: #F55252;
+    padding-bottom: 1rem;
+}
+
+#right-contentTwo-para{
+    color: whitesmoke;
+}
+
+.contentThree{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10rem;
+}
+
+#left-contentThree-title, #left-contenThree-para{
+    padding-left: 3rem;
+}
+
+#left-contentThree-title{
+    color: #F55252;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+}
+
+#left-contenThree-para{
+    color: whitesmoke;
+    padding-right: 3rem;
+}
+
+#right-contenThree-img{
+    padding-right: 3rem;
+    width: 50vw;
+} */
+
+.content {
+    color: rgb(235, 74, 74);
+    margin: 80px;
+}
+
+.content h2 {
+    font-size: 34px;
+    padding-bottom: 60px;
+}
+
+/* .power {
+    margin-right: 80px;
+    font-size: 30px;
+    line-height: 60px;
+} */
+
+/* .power .powerName {
+    font-size: 20px;
+} */
+
+.heroesDesc {
+    display: flex;
+    margin: 50px;
+    padding-left: 60px;
+}
+
+.heroesDesc img {
+    width: 50%;
+    height: auto;
+}
+
+.heroesDesc .desc {
+    padding-left: 80px;
+    width: 45%;
+    margin-top: 25px;
+}
+
+.heroesDesc .desc .desc2{
+    padding-right: 60%;
+    margin-left: -10%;
+    width: 90%
+}
+.heroesDesc .desc h3 {
+    font-size: 24px;
+}
+
+.heroesDesc .desc p {
+    font-size: 20px;
+    color: white;
+}
+
+
+.footer{
+    width: 98.72vw;
+    height: 50px;
+    background-color: #391764;
+}
+
+#footer-title{
+    color: whitesmoke;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width: 800px){
+    .left-navbar{
+        padding-left: 3rem;
+    }
+
+    .right-navbar{
+        padding-right: 3rem;
+    }
+
+    .navbar{
+        font-size: 16px;
+    }
+
+    .heroesDesc{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0rem;
+        margin-left: 0rem;
+    }
+
+    .heroesDesc img{
+        width: 80vw;
+        
+    }
+    
+    .heroesDesc .desc {
+        padding-left: 0rem;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 5rem;
+    }
+    
+    .heroesDesc .desc2{
+        padding-left: 3.5rem;
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+
+    #oura{
+        margin-bottom: 10rem;
+    }
+}

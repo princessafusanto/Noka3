@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #1d0041;
+}
+
+#to-homePage, #to-newsPage, #to-heroesPage, #to-registerPage, #to-esportPage, #to-homePage-NoKa3{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#to-registerPage{
+    text-decoration: underline;
+}
+
+#to-homePage, #to-newsPage, #to-heroesPage, #to-registerPage, #to-esportPage{
+    padding-right: 1rem;
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    padding-top: 1.8rem;
+    position: fixed;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.left-navbar{
+    padding-left: 6rem;
+    
+}
+
+.right-navbar{
+    padding-right: 6rem;
+}
+
+.header{
+    background-image: url(./backgroundImage/redWallpaper.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 15rem;
+}
+
+#title-news{
+    text-align: center;
+    color: white;
+}
+
+input[type=text], input[type=email], input[type=password]{
+    width: 350px;
+    padding-top: 0.4rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.form{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+#label-name, #label-email, #label-pass, #label-confirm-pass, 
+#label-gender{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+#chk-agree-term{
+    color: whitesmoke;
+    font-size: 0.85rem;
+}
+
+input[type=checkbox]{
+    accent-color: black;
+   
+}
+
+#select-gender{
+    width: 350px;
+    padding-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type=text], [type=email], [type=password], #select-gender{
+    background-color: #C4C4C4;
+    mix-blend-mode: hard-light;
+    border-radius: 6px;
+    height: 20px;
+}
+
+#select-gender{
+    height: 30px;
+}
+
+#value-negatif{
+    color: whitesmoke;
+}
+
+#submit-button{
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+    font-size: 18px;
+    font-weight: 550;
+    color: whitesmoke;
+    padding: 8px 20px;
+    border-radius: 24px;
+    background-color: #F55252;
+    cursor: pointer;
+}
+
+#error{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.already {
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.already span a {
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.already span a:hover {
+    color: #F55252;
+    transition: 0.5s;
+}
+
+.footer{
+    width: 98.72vw;
+    height: 50px;
+    background-color: #391764;
+}
+
+#footer-title{
+    color: whitesmoke;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width: 800px){
+    .left-navbar{
+        padding-left: 3rem;
+    }
+
+    .right-navbar{
+        padding-right: 3rem;
+    }
+
+    .navbar{
+        font-size: 16px;
+    }
+
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noka3 Login</title>
+    <link rel="stylesheet" href="loginPage.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left-navbar">
+            <a id="to-homePage" href="homePage.html">HOME</a>
+            <a id="to-newsPage" href="newsPage.html">NEWS</a>
+            <a id="to-heroesPage" href="heroesPage.html">HEROES</a>
+            <a id="to-registerPage" href="registerPage.html">REGISTER</a>
+            <a id="to-esportPage" href="esportPage.html">E-SPORT</a>
+        </div>
+
+        <div class="right-navbar">
+            <a id="to-homePage-NoKa3" href="homePage.html">NoKa3</a>
+        </div>
+    </div>
+
+
+    <div class="header">
+        <h1 id="title-news">NoKa3 LOGIN</h1>
+    </div>
+
+    <div class="content">
+        <div class="left"> </div>
+
+        <div class="form">
+            <form action="loginSuccess.html" onsubmit="return validate()">
+                <!-- <label for="txt-name" id="label-name">Name</label>
+                <br>
+                <input type="text" id="txt-name">
+                <br> -->
+                
+                
+                <label for="txt-email" id="label-email">Email</label>
+                <br>
+                <input type="email" id="txt-email">
+                
+                <br>
+        
+                <label for="txt-pass" id="label-pass">Password</label>
+                <br>
+                <input type="password" id="txt-pass">
+                
+                <br>
+        
+                <!-- <label for="txt-confirm-pass" id="label-confirm-pass">Confirm Password</label>
+                <br>
+                <input type="password" id="txt-confirm-pass">
+                
+                <br>
+        
+                <label for="select-gender" id="label-gender">Gender</label>
+                <br>
+                <select id="select-gender">
+                    <option id="value-negatif" value="-1">[Choose your gender]</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <br>
+                
+                <input type="checkbox"  id="chk-agree">
+                <label for="chk-agree" id="chk-agree-term">I have read and accept the Terms and Conditions*</label>
+                <br>
+                <br>
+        
+                <input id="submit-button" type="submit" value="Create Account"> -->
+
+                <br>
+                <br>
+        
+                <input id="submit-button" type="submit" value="Login">
+                
+                <p id="error" style="color: red;">email must be filled</p>
+            </form>
+            <div class="already">Don't have an account? <span><a href="registerPage.html">Register Here</a></span></div>
+        </div>
+
+        <div class="right"> </div>
+    </div>
+</body>
+<!-- script:src -->
+<script src="./loginPage.js"></script>
+</html>
